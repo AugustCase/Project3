@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 15px;
+  color: rgb(179, 15, 15);
+}
+
+.nav-links a {
+  color: rgb(2, 0, 0);
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.todo-list .completed {
+  text-decoration: line-through;
+  color: rgb(4, 189, 44);
+}
+
+.filters button {
+  margin-right: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-container {
+  max-width: 500px;
+  margin: auto;
+}
